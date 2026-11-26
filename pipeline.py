@@ -4,7 +4,7 @@ from pathlib import Path
 import requests, edge_tts
 
 OUT = Path("out"); OUT.mkdir(exist_ok=True)
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.7-flash")S
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.7-flash")
 VOICE = os.getenv("VOICE", "hi-IN-MadhurNeural")   # Gujarati: gu-IN-NiranjanNeural
 LANG = os.getenv("LANG_NAME", "Hindi")
 STYLE = ("cute 3D animated Pixar-style, Bal Krishna as a small blue-skinned child with a peacock "
